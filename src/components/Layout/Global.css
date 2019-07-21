@@ -1,0 +1,19 @@
+/* CSS Variables */
+:root {
+  --mainFill: #000;
+  --mainFont: Helvetica;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--mainFont);
+  color: var(--mainFill);
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
